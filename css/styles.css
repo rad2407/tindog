@@ -1,0 +1,196 @@
+body {
+    font-family: montserrat, Arial, Helvetica, sans-serif;
+}
+
+#title {
+    background: #ff4c68;
+}
+
+p {
+    color: #777777;
+}
+
+.main-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    padding-top: 10%;
+    color: #fff;
+}
+
+#title .navbar-brand {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: ubuntu, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    padding-bottom: 30px;
+}
+
+
+/* Nav Links */
+#title a {
+    color: #e9e9e9;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-left: 35px;
+}
+
+/* Header container */
+.container-fluid {
+    padding: 3% 15%;
+    /* height: 100vh; */
+    /* overflow: hidden; */
+}
+
+/* download buttons */
+.btn-donwload {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+/* title image */
+.iphone {
+    width: 60%;
+    transform: rotate(25deg);
+    padding-top: 10%;
+    margin-left: 50px;
+    position: absolute;
+
+}
+
+/* FEATURES SECTION */
+
+#features {
+    text-align: center;
+    padding: 10% 15%;
+    background-color: #fff;
+    position: relative;
+
+
+}
+
+.feature-icon {
+    color: #ef8172;
+    padding-bottom: 25px;
+
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+    padding-bottom: 25px;
+
+}
+
+#features .row h3 {
+    font-weight: 900;
+
+}
+
+/* TESTIMONIAL SECTION */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+h2 {
+    font-family: montserrat, Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+#testimonials img {
+    width: 20%;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.brands {
+    width: 15%;
+    margin: 30px 30px 20px;
+}
+
+/* PRICING SECTION */
+
+#pricing {
+    padding: 10% 7%;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3%;
+}
+
+.card-price-month {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* CTA SECTION */
+#cta {
+    background-color: #ff4c68;
+    padding: 100px;
+    text-align: center;
+}
+
+#cta h3 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 900;
+    padding: 7% 15%;
+
+}
+
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+
+}
+
+/* adding margin to the social icons */
+#footer .social-icon {
+    margin: 20px 10px;
+}
+
+/* RESPONSIVE SECTION */
+@media screen and (max-width: 990px) {
+    .iphone {
+        position: static;
+        transform: rotate(0);
+        width: 45%;
+
+    }
+
+    .container-fluid {
+        text-align: center;
+    }
+
+    .main-heading {
+        font-size: 2.5rem;
+        line-height: 1.1;
+        font-weight: 900;
+        padding-top: 10%;
+        color: #fff;
+    }
+
+    h2 {
+        font-size: 1.9rem;
+    }
+
+}
